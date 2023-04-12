@@ -18,26 +18,62 @@
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
-Nombre:
-Apellido:
-Sexo: Masculino Femenino
-Edad:
-Email:
-Usuario:
-Password:
-Confirmar Password:
+<form name="Formulario suscripcion">
+<p>
+Nombre: <input type="text" name="Nombre" placeholder="Ingrese su nombre">
+</p>
+<p>
+Apellido: <input type="text" name="Apellido">
+</p>
+<p>
+Sexo: <br>
+Masculino <input type="radio" name="genero" value="Maculino"> 
+Femenino <input type="radio" name="genero" value="Femenino"> 
+</p>
+<p>
+Edad: <input type="number" name="Edad">
+</p>
+<p>
+Email: <input type="text" name="Email" placeholder="Email@gmail.com">
+</p>
+<p>
+Usuario: <input type="Usuario" name="Usuario" placeholder="Usuario">
+</p>
+<p>
+Password: <input type="password" name="password">
+</p>
+<p>
+Confirmar Password: <input type="password" name="passwordC">
+</p>
 
-Tipo de servicio: Free / Standard / Premium
-Tema:
-Política
-Negocios
-Tecnología
-Salud
-
+<p>
+Tipo de servicio:
+<select name="tipo de servicio">
+  <option value="free"> free</option>
+  <option value="Standar"> Standar</option>
+  <option value="Premium"> Premium</option>
+></select>
+</p>
+<p>
+Tema: <br>
+Política <imput type="checkbox "value="Política" name="Tema">
+Negocios <imput type="checkbox "value="Negocios" name="Tema"></imput>
+Tecnología <imput type="checkbox "value="Tecnología" name="Tema"></imput>
+Salud <imput type="checkbox "value="Salud" name="Tema"></imput>
+</p>
+<p>
 Agregue un comentario:
+<textarea> Agregue un comentario </textarea>
+</p>
 
-Boton de Enviar
+<p>
+<botton> 
 
+    Finalizar
 
+</botton>
+
+</p>
+</form>
 </body>
 </html>
