@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 30, 0);
+}
+nav#Navegacion{
+    margin: auto;
+    width: auto;
+    height: 70px;
+    background-color: rebeccapurple;
+}
+div#Login{
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(229, 255, 0);
+}
+header#CaraPrincipal{
+    margin: auto;
+    box-sizing: border-box;
+    height: 400px;
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/KRICFITOY5FRRLDUOYSXWEEARM.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div#Carta{
+    margin: auto;
+    width: auto;
+    height: 450px;
+    background-color: aqua;
+    
+}
+div#CartaDerecha{
+    float: right;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 0, 106);
+}
+
+div#Delivery{
+    margin: auto;
+    width: auto;
+    height: 450px;
+    background-color: rgb(0, 110, 255);
+}
+div#DeliveryDerecha{
+    float: right;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 0, 55);
+}
+
+div#Reserva{
+    margin: auto;
+    width: auto;
+    height: 450px;
+    background-color: rgb(119, 0, 255);
+}
+div#ReservaDerecha{
+    float: right;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 0, 0);
+}
+
+footer#Foot_Informativo{
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: 150px;
+    background-color: rgb(133, 133, 133);
+}
