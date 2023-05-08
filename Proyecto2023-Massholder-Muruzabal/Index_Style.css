@@ -3,41 +3,84 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(255, 30, 0);
-}
-nav#Navegacion{
-    margin: auto;
-    width: auto;
-    height: 70px;
-    background-color: rebeccapurple;
-}
-div#Login{
-    float: right;
-    width: 70px;
-    height: 70px;
-    background-color: rgb(229, 255, 0);
-}
-header#CaraPrincipal{
+    background-color: rgb(247, 25, 0);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}   
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        background-color: rgb(218, 174, 109);
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        color: beige;
+        text-decoration: none;
+    }
+    div.container{
+        width: 1280px;
+        margin: auto;
+    }
+    nav#navbar{
+        width: 95%;
+        margin: auto;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    div.nav-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+    }
+    a.navbrand{
+        font-size: 3rem;
+    }
+    @media(max-width:1280px){
+        div.container{
+            width: 100%;
+        }
+    }
+
+div#CaraPrincipal{
     margin: auto;
     box-sizing: border-box;
+    margin-top: 70px;
     height: 400px;
     background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/KRICFITOY5FRRLDUOYSXWEEARM.JPG);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
 }
+
 div#Carta{
     margin: auto;
     width: auto;
     height: 450px;
     background-color: aqua;
-    
 }
 div#CartaDerecha{
     float: right;
-    text-align: center;
     width: 300px;
     height: 450px;
     background-color: rgb(255, 0, 106);
+    align-content: center;
+}
+div.Cartalink{
+    text-align: center;
+    padding-top: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    align-content: center;
 }
 
 div#Delivery{
@@ -48,10 +91,17 @@ div#Delivery{
 }
 div#DeliveryDerecha{
     float: right;
-    text-align: center;
     width: 300px;
     height: 450px;
     background-color: rgb(255, 0, 55);
+}
+div.Deliverylink{
+    text-align: center;
+    padding-top: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    align-content: center;
 }
 
 div#Reserva{
@@ -62,16 +112,49 @@ div#Reserva{
 }
 div#ReservaDerecha{
     float: right;
-    text-align: center;
     width: 300px;
     height: 450px;
     background-color: rgb(255, 0, 0);
 }
+div.Reservalink{
+    text-align: center;
+    padding-top: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    align-content: center;
+}
 
-footer#Foot_Informativo{
+footer#Foot_Unico{
     text-align: center;
     margin: auto;
     width: auto;
-    height: 150px;
+    height: 250px;
     background-color: rgb(133, 133, 133);
+}
+div.Divfooter1{
+    float: left;
+    height: 100px;
+    width: 25%;
+
+background-color: black;
+}
+div.Divfooter2{
+    height: 100px;
+    width: 25%;
+   
+background-color: rgb(255, 255, 255);
+}
+div.Divfooter3{
+    height: 100px;
+    width: 25%;
+    padding-top: 10%;
+
+background-color: black;
+}
+div.Divfooter4{
+    float: right;
+    height: 100px;
+    width: 25%;
+background-color: rgb(255, 255, 255);
 }
