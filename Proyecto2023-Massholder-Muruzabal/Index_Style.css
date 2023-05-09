@@ -326,9 +326,10 @@ div.Redes a.Intro{
     font-family: 'Cinzel', serif;
 }
 
-nav#red .logo1{
-    width: 40px;
-    
+nav#navred  img.Logo1{
+   
+    height: 30px;
+    width: 30px;
 }
 
 div.Divfooter2 {
@@ -351,4 +352,11 @@ div.Divfooter4 {
     height: 100px;
     width: 25%;
     background-color: rgb(255, 255, 255);
+}
+div.creadores h6{
+    color: beige;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    transition: 0.5;
 }
