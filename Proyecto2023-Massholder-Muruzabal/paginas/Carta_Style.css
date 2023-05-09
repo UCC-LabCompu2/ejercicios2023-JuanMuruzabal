@@ -90,12 +90,18 @@ div#CaraPrincipal {
 }
 
 div.menu{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    display: flex;
+    align-self: center;
+    align-content: center;
     height: 800px;
     width: 800px;
-    opacity: 50%;
-    background-color: rgba(206, 211, 216, 0.726);
+    opacity: 80%;
+    background-color: rgba(96, 100, 105, 0.726);
 }
 table.tablamenu{
+    text-align: center;
     border: 5px  lightslategray;
     border-style: inset;
 }
