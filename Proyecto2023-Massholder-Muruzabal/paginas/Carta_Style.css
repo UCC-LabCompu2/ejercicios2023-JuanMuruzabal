@@ -27,9 +27,6 @@ li.nav-link {
 
 }
 
-
-
-
 nav ul li a {
     color: beige;
     text-decoration: none;
@@ -78,7 +75,6 @@ div#CaraPrincipal {
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    align-items: center;
     justify-content: center;
     display: flex;
     position: relative;
@@ -92,15 +88,35 @@ div#CaraPrincipal {
 }
 
 div.menu{
+    margin-top: 70px;
+    font-family: 'Castoro Titling', cursive;
+    font-size:x-large;
+    display: flex;
     height: 800px;
     width: 800px;
-    opacity: 50%;
-    background-color: rgba(206, 211, 216, 0.726);
+    opacity: 95%;
+    background-color: rgba(96, 100, 105, 0.726);
 }
+
+caption h6{
+    font-size: xx-large;
+    scale: 120%;
+}
+td{
+    text-align: center;
+}
+th{
+    
+    font-size: xx-large;
+    scale: 120%;
+}
+
 table.tablamenu{
-    border: 5px  lightslategray;
+    text-align: center;
+    border: 10px rgb(153, 144, 144) ;
     border-style: inset;
 }
+
 footer#FooterUnico {
     text-align: center;
     align-items: center;
