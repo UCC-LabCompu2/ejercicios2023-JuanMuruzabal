@@ -1,80 +1,131 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: rgb(247, 25, 0);
+
+body {
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     height: 100%;
     position: relative;
-}   
-    header{
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 70px;
-        background-color: rgb(218, 174, 109);
-    }
-    li{
-        list-style: none;
-    }
-    a{
-        color: beige;
-        text-decoration: none;
-    }
-    div.container{
-        width: 1280px;
-        margin: auto;
-    }
-    nav#navbar{
-        width: 95%;
-        margin: auto;
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    div.nav-menu{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-    }
-    a.navbrand{
-        font-size: 3rem;
-    }
-    @media(max-width:1280px){
-        div.container{
-            width: 100%;
-        }
-    }
+}
 
-div#CaraPrincipal{
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+li.nav-link {
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-family: 'Cinzel', serif;
+
+
+}
+
+
+nav ul li a {
+    color: beige;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.5;
+}
+
+nav ul li a:hover{
+    -webkit-text-stroke: 0.5px white;
+   
+}
+
+div.container {
+    width: 1280px;
     margin: auto;
+}
+
+nav#navbar {
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav#navbar .logo {
+    width: 70px;
+
+}
+
+
+div.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
+
+@media(max-width:1280px) {
+    div.container {
+        width: 100%;
+    }
+}
+
+div#CaraPrincipal {
+    margin: auto;
+    text-align: center;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    padding: 0 5%;
     margin-top: 70px;
-    height: 400px;
-    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/KRICFITOY5FRRLDUOYSXWEEARM.JPG);
+    height: 580px;
+    background-image: url(https://www.discoverlosangeles.com/sites/default/files/images/2019-01/Inn%20of%20the%20Seventh%20Ray%20dining%20room%20night.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-div#Carta{
+div#CaraPrincipal h1 {
+
+    font-size: 100px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+
+}
+
+
+
+div#Carta {
     margin: auto;
     width: auto;
     height: 450px;
-    background-color: aqua;
+    background-image: url(https://www.jabefitness.com/wp-content/uploads/2014/01/DSC04477-Medium.jpg);
+    border: 5px solid black;
 }
-div#CartaDerecha{
+
+div#CartaDerecha {
     float: right;
     width: 300px;
     height: 450px;
-    background-color: rgb(255, 0, 106);
+    background-color: black;
     align-content: center;
+
 }
-div.Cartalink{
+
+div.Cartalink {
     text-align: center;
     padding-top: 50%;
     top: 50%;
@@ -83,19 +134,50 @@ div.Cartalink{
     align-content: center;
 }
 
-div#Delivery{
+div.Cartalink a {
+    color: beige;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    transition: 1.5s;
+}
+
+div.Cartalink a:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+
+div.CartaDescripcion{
+    text-align: center;
+}
+
+div.CartaDescripcion a {
+    color: beige;
+    display: inline-block;
+    padding: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Cinzel', serif
+    
+}
+
+div#Delivery {
     margin: auto;
     width: auto;
     height: 450px;
-    background-color: rgb(0, 110, 255);
+    background-image: url(https://www.cronista.com/files/image/303/303967/5ffe1fe1af560.jpg);
+    border: 5px solid black
 }
-div#DeliveryDerecha{
+
+div#DeliveryDerecha {
     float: right;
     width: 300px;
     height: 450px;
-    background-color: rgb(255, 0, 55);
+    background-color: black;
 }
-div.Deliverylink{
+
+div.Deliverylink {
     text-align: center;
     padding-top: 50%;
     top: 50%;
@@ -104,19 +186,47 @@ div.Deliverylink{
     align-content: center;
 }
 
-div#Reserva{
+div.Deliverylink a {
+    color: beige;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    transition: 1.5s;
+}
+div.Deliverylink a:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+div .DeliveryDescripcion{
+    text-align: center;
+}
+
+div .DeliveryDescripcion a{
+    color: beige;
+    display: inline-block;
+    padding: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Cinzel', serif
+}
+
+div#Reserva {
     margin: auto;
     width: auto;
-    height: 450px;
-    background-color: rgb(119, 0, 255);
+    height: 500px;
+    background-image: url(https://www.coastlinenservices.com/wp-content/uploads/2019/07/shutterstock_741884605.jpg);
+    border: 5px solid black
 }
-div#ReservaDerecha{
+
+div#ReservaDerecha {
     float: right;
     width: 300px;
-    height: 450px;
-    background-color: rgb(255, 0, 0);
+    height: 500px;
+    background-color: black;
 }
-div.Reservalink{
+
+div.Reservalink {
     text-align: center;
     padding-top: 50%;
     top: 50%;
@@ -125,36 +235,120 @@ div.Reservalink{
     align-content: center;
 }
 
-footer#Foot_Unico{
+div .Reservalink a {
+    color: beige;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    transition: 1.5s;
+}
+
+div .Reservalink a:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+div .ReservaDescripcion{
     text-align: center;
+}
+
+div .ReservaDescripcion a{
+    color: beige;
+    display: inline-block;
+    padding: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Cinzel', serif
+}
+
+footer#FooterUnico {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+    top: 50%;
+    left: 50%;
     margin: auto;
     width: auto;
-    height: 250px;
-    background-color: rgb(133, 133, 133);
+    height: 500px;
+    background-color: rgb(10, 10, 10);
 }
-div.Divfooter1{
+
+div.InfoRes{
+    
+    display: inline-block;
+    padding: 5px;
+}
+
+div.Redes{
+    display: inline-block;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.InfoRes h3{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+div.InfoRes h4{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+div.InfoRes h5{
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+div.Divfooter1 {
     float: left;
     height: 100px;
     width: 25%;
 
-background-color: black;
+    background-color: black;
 }
-div.Divfooter2{
+
+div.Redes a.Intro{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+nav#red .logo1{
+    width: 40px;
+    
+}
+
+div.Divfooter2 {
     height: 100px;
     width: 25%;
-   
-background-color: rgb(255, 255, 255);
+
+    background-color: rgb(255, 255, 255);
 }
-div.Divfooter3{
+
+div.Divfooter3 {
     height: 100px;
     width: 25%;
     padding-top: 10%;
 
-background-color: black;
+    background-color: black;
 }
-div.Divfooter4{
+
+div.Divfooter4 {
     float: right;
     height: 100px;
     width: 25%;
-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 }

@@ -1,0 +1,18 @@
+<br>
+            <div>
+                <h3>
+                    <fieldset id="Contacto">
+                        <legend>Contactanos: </legend>
+                        <label for="Nombre y Apellido"> Nombre y Apellido: </label>
+                        <input type="text" name="NombreyApellido" placeholder="Ej. Kevin Massholder" size="15"
+                            alt="Ingrese en la casilla nombre y apellido de contacto"> <br>
+                        <label for="Email"> Email: </label>
+                        <input type="email" name="Email" placeholder="Ej. email@gmail.com" size="25"
+                            alt="Ingrese en la casilla un email de contacto"><br>
+                        <label for="Telefono Celular">Telefono Celular: </label>
+                        <input type="tel" name="TelefonoCelular" placeholder="Ej. 351-7246238" size="11"
+                            alt="Ingrese en la casilla un numero de telefono celular de contaccto">
+                    </fieldset>
+                </h3>
+
+            </div>
