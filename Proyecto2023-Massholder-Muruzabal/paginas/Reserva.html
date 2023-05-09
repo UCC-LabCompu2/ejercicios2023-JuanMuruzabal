@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Reserva_Style.css" />
@@ -7,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -25,10 +27,38 @@
         </div>
     </header>
 
-   <div class="container">
+    <div class="container">
         <div id="CaraPrincipal">
             <div class="registroreserva">
-    
+
+                <h2>RESERVA</h2>
+
+                <div class="reserva">
+
+                    <form class="cuadro" action="">
+                        <label for="Nombre y Apellido"> Nombre y Apellido: </label><br>
+                        <input type="" placeholder="Nombre" required><br>
+                        <label for="Email"> Correo electronico: </label><br>
+                        <input type="email" name="email" id="" placeholder="Correo electronico" required><br>
+                        <label for="Telefono Celular">Telefono Celular: </label><br>
+                        <input type="number" placeholder="Ej: 351 6517698"><br>
+                        <label for="Tamaño de grupo">Tamaño de grupo: </label><br>
+                        <input type="number" placeholder="1-15 personas"><br>
+                        <label for="Fecha y hora"> Fecha y hora: </label><br>
+                        <input type="datetime-local" placeholder="Seleccione la fecha"><br>
+                        <label for="Notas extra a tener en cuenta"> Notas extra a tener en cuenta: </label><br>
+                        <textarea name="" id="envio" cols="30" rows="10" placeholder="Introduzca la nota" required>
+                        </textarea><br>
+                        <input type="submit" name="" value="Reservar" class="btn">
+
+                    </form>
+
+                    <div class="numeroreserva">
+                        <h3>O llamenos al numero: +54 351-6517698</h3>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -47,15 +77,17 @@
 
                 <nav id="navred">
                     <a href="Index.html" target="_self">
-                        <img src="https://www.adverthia.com/wp-content/uploads/2020/02/instagram-logo-png-transparent-background-1024x1024-1.png" class="Logo1" alt="Link a la pagina de instagram">
-    
+                        <img src="https://www.adverthia.com/wp-content/uploads/2020/02/instagram-logo-png-transparent-background-1024x1024-1.png"
+                            class="Logo1" alt="Link a la pagina de instagram">
+
                     </a>
                     <a href="Index.html" target="_self">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png"  class="Logo1" alt="Link a la pagina de facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Logo_de_Facebook.png"
+                            class="Logo1" alt="Link a la pagina de facebook">
                     </a>
 
                 </nav>
-                
+
             </div>
         </div>
 
@@ -65,8 +97,8 @@
 
         </div>
 
-        <div class="Contactanos"> 
-            
+        <div class="Contactanos">
+
             <form class="cuadro" action="">
                 <label for="Nombre y Apellido"> Nombre y Apellido: </label><br>
                 <input type="" placeholder="Nombre" required><br>
@@ -79,7 +111,7 @@
 
 
                 </textarea><br>
-                <input  type="submit" name="" value="enviar" class="btn">
+                <input type="submit" name="" value="enviar" class="btn">
 
             </form>
 
@@ -100,4 +132,5 @@
 
     </footer>
 </body>
+
 </html>
