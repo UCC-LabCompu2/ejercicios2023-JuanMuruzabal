@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <title>Delivery</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="Delivery_Style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,62 @@
     <div class="container">
         <div id="CaraPrincipal">
             <div class="registrodelivery">
-    
+                <h2>DELIVERY</h2>
+
+                <div class="delivery">
+
+                    <form class="cuadro" action="">
+                        <label for="Nombre y Apellido"> Nombre y Apellido: </label><br>
+                        <input type="" placeholder="Nombre" required><br>
+                        <label for="Email"> Correo electronico: </label><br>
+                        <input type="email" name="email" id="" placeholder="Correo electronico" required><br>
+                        <label for="Telefono Celular">Telefono Celular: </label><br>
+                        <input type="number" placeholder="Ej: 351 6517698"><br>
+                        <label for="Direccion"> Direccion del envio: </label><br>
+                        <input type="" placeholder="Direccion de envio" required><br>
+                        <p>
+                            <label for="tipo de Ensalada">Seleccione la Ensalada</label>
+                        <select name="Ensalada" id="Ensalada" > 
+                            <option value="Caprese">Caprese</option>
+                            <option value="Caesar">Caesar</option>
+                            <option value="Kartoffelsalat">Kartoffelsalat</option>
+                            <option value="Waldorf">Waldorf</option>
+                        </select>
+                        <label for="tipo de Sandwich">Seleccione el Sandwich</label>
+                        <select name="Sandwich" id="Sandwich" > 
+                            <option value="Cubano">Cubano</option>
+                            <option value="Heisenberg">Rucula y Pera</option>
+                            <option value="Lionel Messias">Lionel Messias</option>
+                            <option value="Pollo Crocante">Pollo Crocante</option>
+                        </select> <br>
+                    </p>
+                        <p>
+                        <p>Quiere Bebidas con su orden?</p>
+                        <label for="BebidaSi">Si </label>
+                        <input type="radio" name="Bebida" value="Si" id="Si"><br>
+                        <label for="BebidaNo "> No </label>
+                        <input type="radio" name="Bebida" value="No" id="No"><br>
+                    </p><br>
+
+                        <p>
+                            <label for="tipo de Bebida">Seleccione la Bebida</label>
+                        <select name="Bebidas" id="Bebida" > 
+                            <option value="Moscatto">Moscatto</option>
+                            <option value="Heisenberg">Heisenberg</option>
+                            <option value="Aperol">Aperol</option>
+                            <option value="Jagermeister">Jagermeister</option>
+                            <option value="Santa Julia">Santa Julia</option>
+                            <option value="Whisky Blend">Whisky Blend</option>
+                        </select> <br>
+                        </p>
+                        
+                        <label for="Consderaciones de Envio"> Explicaciones para el repartidor: </label><br>
+                        <textarea name="" id="envio" cols="30" rows="10" placeholder="Introduzca la consideracion" required>
+                        </textarea><br>
+                        <input type="submit" name="" value="enviar" class="btn">
+
+                    </form>
+
             </div>
         </div>
     </div>

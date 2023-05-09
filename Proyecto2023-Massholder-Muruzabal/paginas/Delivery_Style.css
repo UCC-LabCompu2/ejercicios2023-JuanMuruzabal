@@ -89,11 +89,44 @@ div#CaraPrincipal {
 }
 
 div.registrodelivery{
-    height: 800px;
-    width: 900px;
-    opacity: 70%;
-    background-color: rgba(139, 193, 247, 0.726);
+    padding: 40px;
+    height: 600px;
+    width: 800px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(90, 121, 153, 0.726);
 }
+
+div.registrodelivery h2 {
+
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+
+}
+p{
+    font-family: 'Cinzel', serif; 
+}
+div.delivery {
+    opacity: none;
+    display: block;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+
+
+}
+
+div.numeroreserva h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
 
 footer#FooterUnico {
     text-align: center;
