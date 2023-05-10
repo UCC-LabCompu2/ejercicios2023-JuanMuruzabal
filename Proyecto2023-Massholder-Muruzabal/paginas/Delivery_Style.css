@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 body {
     background-color: rgb(0, 0, 0);
     margin: 0;
@@ -17,6 +18,7 @@ header {
     height: 70px;
     background-color: rgb(0, 0, 0);
 }
+
 li.nav-link {
 
     list-style: none;
@@ -34,9 +36,9 @@ nav ul li a {
     transition: 0.5;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     -webkit-text-stroke: 0.5px white;
-   
+
 }
 
 div.container {
@@ -88,45 +90,49 @@ div#CaraPrincipal {
     background-size: cover;
 }
 
-div.registrodelivery{
+div.registrodelivery {
+    padding: 35px;
+    height: 800px;
+    width: 900px;
+    background-color: rgba(86, 86, 86, 0.726);
+}
+
+div .bebidas {
+
     padding: 40px;
-    height: 600px;
-    width: 800px;
-    display: block;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: rgba(90, 121, 153, 0.726);
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+div .bebidas label {
+
+    font-size: 15px;
+
+}
+
+div .comida {
+
+    padding: 40px;
+   
+
+}
+
+div .comida label {
+
+    padding: 40px;
+    font-size: 15px;
+   
+
 }
 
 div.registrodelivery h2 {
-
     font-size: 35px;
     color: white;
     font-weight: 500;
     font-family: 'Cinzel', serif;
-
 }
-p{
-    font-family: 'Cinzel', serif; 
-}
-div.delivery {
-    opacity: none;
-    display: block;
-    align-items: center;
-    height: 600px;
-    width: 800px;
-
-
-}
-
-div.numeroreserva h3{
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
-    font-family: 'Cinzel', serif;
-}
-
 
 footer#FooterUnico {
     text-align: center;
@@ -141,13 +147,13 @@ footer#FooterUnico {
     background-color: rgb(10, 10, 10);
 }
 
-div.InfoRes{
-    
+div.InfoRes {
+
     display: inline-block;
     padding: 5px;
 }
 
-div.Redes{
+div.Redes {
     display: inline-block;
     padding: 30px;
     align-items: center;
@@ -155,14 +161,14 @@ div.Redes{
 
 }
 
-div.InfoRes h3{
+div.InfoRes h3 {
     font-size: 35px;
     color: white;
     font-weight: 500;
     font-family: 'Cinzel', serif;
 }
 
-div.InfoRes h4{
+div.InfoRes h4 {
     padding: 5px;
     font-size: 25px;
     color: white;
@@ -170,7 +176,7 @@ div.InfoRes h4{
     font-family: 'Cinzel', serif;
 }
 
-div.InfoRes h5{
+div.InfoRes h5 {
     padding: 5px;
     font-size: 18px;
     color: white;
@@ -179,24 +185,24 @@ div.InfoRes h5{
 }
 
 
-div.Redes a.Intro{
+div.Redes a.Intro {
     font-size: 15px;
     color: white;
     font-weight: 500;
     font-family: 'Cinzel', serif;
 }
 
-nav#navred  img.Logo1{
-   
+nav#navred img.Logo1 {
+
     height: 30px;
     width: 30px;
 }
 
-div.creadores{
+div.creadores {
     padding: 110px;
 }
 
-div.creadores h6{
+div.creadores h6 {
     color: beige;
     text-decoration: none;
     font-size: 15px;
@@ -204,7 +210,7 @@ div.creadores h6{
     transition: 0.5;
 }
 
-div.creadores h5 a{
+div.creadores h5 a {
     padding: 15px;
     color: beige;
     text-decoration: none;
@@ -213,24 +219,24 @@ div.creadores h5 a{
     transition: 0.5;
 }
 
-div.creadores h5 a:hover{
+div.creadores h5 a:hover {
     -webkit-text-stroke: 0.5px white;
 
 }
 
-div.Contactanos{
+div.Contactanos {
 
     display: block;
     align-items: center;
-    
+
 }
 
-div.Contactanos form{
+div.Contactanos form {
     position: static;
 
 }
 
-form input{
+form input {
 
     width: 30%;
     border: none;
@@ -244,7 +250,7 @@ form input{
 
 }
 
-form input.btn{
+form input.btn {
     width: 10%;
     border: none;
     outline: none;
@@ -258,7 +264,7 @@ form input.btn{
 
 
 
-form textarea{
+form textarea {
 
     border: none;
     resize: none;
@@ -274,7 +280,7 @@ form textarea{
 }
 
 
-form label{
+form label {
     padding: 50px;
     color: beige;
     text-decoration: none;
@@ -283,14 +289,14 @@ form label{
 
 }
 
-div.Contacto{
+div.Contacto {
 
     display: block;
     padding: 5px;
 
 }
 
-div.Contacto h3{
+div.Contacto h3 {
 
     font-size: 35px;
     color: white;

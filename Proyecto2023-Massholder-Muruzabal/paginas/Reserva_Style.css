@@ -124,7 +124,10 @@ div.reserva {
 
 }
 
+
+
 div.numeroreserva h3{
+    padding: 50px;
     font-size: 20px;
     color: white;
     font-weight: 500;
